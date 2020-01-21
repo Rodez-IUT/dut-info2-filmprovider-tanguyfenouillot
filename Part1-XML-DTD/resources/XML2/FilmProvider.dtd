@@ -1,0 +1,27 @@
+<!ELEMENT titre (#PCDATA)>
+
+<!ELEMENT identifiant (#PCDATA)>
+
+<!ELEMENT annee (#PCDATA)>
+
+<!ELEMENT nom (#PCDATA)>
+
+<!ELEMENT prenom (#PCDATA)>
+
+<!ELEMENT text (#PCDATA)>
+
+<!ELEMENT image EMPTY>
+    <!ATTLIST image source CDATA #REQUIRED>
+
+<!ELEMENT resume (image?, text)>
+
+<!ELEMENT realisateur (prenom, nom)>
+    <!ATTLIST realisateur id_realisateur ID #REQUIRED>
+
+<!ELEMENT film (titre, resume)>
+    <!ATTLIST film id_film ID #REQUIRED
+                   id_realisateur IDREF #REQUIRED
+                   annee CDATA #REQUIRED
+    >
+
+<!ELEMENT films (realisateur+, film+)>
