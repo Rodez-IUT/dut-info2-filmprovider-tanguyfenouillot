@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE librairie SYSTEM "Librairie.dtd">
+<librairie>
+    <entete>
+        <strong>Librairie de Rodez</strong>
+        &copyright;
+    </entete>
+    <livre numISBN="9791035805319">
+        <titre>Les Fleurs du mal</titre>
+        <auteur>
+            <nom>Baudelaire</nom>
+            <prenom>Charles</prenom>
+        </auteur>
+        <description>
+            Les Fleurs du mal est un recueil
+            de poèmes de Charles Baudelaire, englobant la
+            quasi-totalité de sa production en vers, de 1840
+            jusqu'à sa mort survenue fin août 1867.
+        </description>
+        <prix devise="euro">20</prix>
+    </livre>
+</librairie>
+
+
+
+    
+    
