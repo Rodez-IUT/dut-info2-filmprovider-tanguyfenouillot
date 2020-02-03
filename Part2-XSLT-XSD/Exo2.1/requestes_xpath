@@ -1,0 +1,23 @@
+1)
+//film/titre ou /films/film/titre
+
+2)
+//film[titre='Minority Report']/resume
+
+3)
+//realisateur[last()]/nom
+
+4)
+//film[position()=2]/titre
+
+5)
+count(//film/resume[contains(text,'mafia')])
+
+6)
+//film/resume/image/ancestor::film
+
+7)
+//film[@id_realisateur='real_01']/titre
+
+8)
+count(//film[@annee='2003'])
