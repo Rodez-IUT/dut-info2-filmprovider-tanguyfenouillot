@@ -31,6 +31,7 @@
 			<td>
 				<xsl:variable name="real"><xsl:value-of select="@id_realisateur"/></xsl:variable>
 				<xsl:value-of select="../realisateur[@id_realisateur=$real]/prenom"/>
+				<xsl:text> </xsl:text>
 				<xsl:value-of select="../realisateur[@id_realisateur=$real]/nom"/>
 			</td>
 		</tr>
