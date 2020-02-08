@@ -22,8 +22,10 @@
                 <td colspan="2"><xsl:value-of select="resume/text"/></td>
             </tr>
             <tr>
-                <xsl:variable name="ressource"><xsl:value-of select="@id_realisateur"/></xsl:variable>
-                <xsl:value-of select="resume/img"/>
+                <td>
+                    <xsl:value-of select="/resume/imgage"/><!-- TODO Marche pas -->
+                </td>
+
             </tr>
             <hr/>
         </table>
